@@ -1,0 +1,73 @@
+body {margin:0;padding:0;display: border-box;background-color: black;}
+#matrix_a h1 {
+    color:red;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    font-family: fantasy;
+}
+#matrix_a {margin:0;padding:0;}
+#matrix_a p input {
+    background-color: salmon;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    width: 10vw;
+    margin: 0.5vw;
+    padding: 0.15vw;
+}
+#matrix_a p {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    margin:0.5vw;
+    padding:0;
+    color:black;
+    -webkit-text-stroke: 0.05vw white;
+}
+#matrix_b h1 {color:yellow;font-size: 3vw;-webkit-text-stroke: 0.1vw black;text-align: center;font-family: fantasy;}
+#matrix_b p input {
+    background-color: orange;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    width: 10vw;
+    margin: 0.5vw;
+    padding: 0.15vw;
+}
+#matrix_b p input:hover {
+    background-color: yellow;
+    color: orange;
+}
+#matrix_a p input:hover {
+    background-color: indianred;
+    color:lightsalmon;
+}
+#matrix_b p {    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    margin:0.5vw;
+    padding:0;
+    color:black;
+    -webkit-text-stroke: 0.05vw white;}
+#matrix_b {padding:0;margin:0;}
+#buttons input {text-align: center;
+color:black;
+font-size: 1.25vw;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+background: linear-gradient(to right, orange, yellow, lime);
+border: 0.35vw solid green;}
+#buttons input:hover {
+    color: indianred;
+    border: 0.35vw solid indianred;
+    background: linear-gradient(to left, darkred, rgb(61, 0, 0),rgb(90, 1, 1)) ;
+    -webkit-text-stroke: 0.025vw white;
+}
+#buttons span {
+    color: red;
+}

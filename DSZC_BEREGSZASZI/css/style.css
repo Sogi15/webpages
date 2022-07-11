@@ -1,0 +1,129 @@
+[class*="col-"] {
+    width: 100%;
+  }
+
+  [class*="col-"] {
+    float:left;
+}
+    /* telefon */  
+  @media only screen and (max-width: 720px) {
+    .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
+    .mcol-1 {width: 8.33%;}
+    .mcol-2 {width: 16.66%;}
+    .mcol-3 {width: 25%;}
+    .mcol-4 {width: 33.33%;}
+    .mcol-5 {width: 41.66%;}
+    .mcol-6 {width: 50%;}
+    .mcol-7 {width: 58.33%;}
+    .mcol-8 {width: 66.66%;}
+    .mcol-9 {width: 75%;}
+    .mcol-10 {width: 83.33%;}
+    .mcol-11 {width: 91.66%;}
+    .mcol-12 {width: 100%;}
+    .mcol-12 {width: 100%;}
+    .mobil {display:none;}
+    .mleft {float:left;}
+    .mright {float:right;text-align: right;}
+    header nav div span {float:right;}
+    body #page {width: 100%;margin:0;display: flex;box-shadow:none;border:none;}
+    article #school {width: 50%;border-radius: 10%;box-shadow: 0vw 0vw 1vw 0.5vw black;margin:1vw;}
+  }
+  
+  /* PC | Tablet */  
+  @media only screen and (min-width: 720px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    article #school {width: 100%;border-radius: 10%;box-shadow: 0vw 0vw 1vw 0.5vw black;margin:1vw;}
+}
+
+/* DémonMesteR */
+#dm-page {width: 85%;margin: 40px auto;display: flex;border: 0px solid red;box-shadow: 0px 0px 10px 2px red;}
+header .dm a img {filter: grayscale(100%);}
+header .dm a img:hover {filter: none;}
+header .dm img, footer.dm img {filter: invert(19%) sepia(66%) saturate(7435%) hue-rotate(356deg) brightness(106%) contrast(118%);}
+#dm-page nav ul li {text-align: center;float:left;border: 1px solid red;padding:5px;}
+#dm-page nav ul a {color:red;text-decoration: none;}
+#dm-page nav ul li:hover {background: linear-gradient(darkred 30%, red 70%);border: 1px solid black;color: white;border: 1px solid white;}
+.dm .flip-card {border: none;background-color: transparent;width: 20vw;height:23vw;display: inline-block;margin:0.5vw 1vw;}
+.dm .flip-card-inner {position: relative;width: 20vw;height:23vw;text-align: center;transition: transform 0.8s;transform-style: preserve-3d;}
+.dm .flip-card:hover .flip-card-inner {transform: rotateY(180deg);}
+.dm .flip-card-front, .flip-card-back {position: absolute;width: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.dm .flip-card-front {color: black;}
+.dm .flip-card-front img {width: 20vw;height:23vw;box-shadow: 0px 0px 5px 2px black;}
+.dm .flip-card-back img {width: 20vw;height:23vw;box-shadow: 0px 0px 5px 2px black;}
+.dm .flip-card-back {width: 20vw;height:23vw;box-shadow: 0px 0px 5px 2px black;transform: rotateY(180deg);}
+article.dm > div {float:none; text-align: center;}
+.dm .link {float:none; margin:2vw;}
+.dm .link button {margin:0.5vw;}
+aside.dm img {filter:grayscale(100%);}
+aside.dm img:hover {filter:none;}
+.dm button {background: linear-gradient(orange, orangered);border:2px solid black;cursor:pointer;}
+.dm button a {color:black;text-decoration: none;}
+.dm button:hover {background: linear-gradient(red 50%,darkred);color:white;}
+
+body {margin:0px;padding: 0px;}
+#page {width: 85%;margin: 40px auto;display: flex;border: 0px solid black;box-shadow: 0px 0px 10px 2px black;}
+#top_nav_line {padding: 20px;margin-bottom: 10px;}
+#top_nav_line div {float:left;}
+header {margin: 0px;padding:auto;}
+header h1 {font-family: Impact;font-size: 2.65vw;text-align: center;}
+header div table tr td{filter: grayscale();}
+header div table tr td:hover {filter:none;}
+nav ul {list-style-type: none;margin:auto;width: 100%;padding:0;}
+nav ul li {text-align: center;float:left;border: 1px solid white;padding:5px;}
+nav ul a {color:white;text-decoration: none;}
+nav ul li:hover {background: linear-gradient(rgb(0, 0, 90) 30%, rgb(0, 0, 70) 70%);border: 1px solid black;color: wheat;border: 1px solid wheat;}
+article {float:left;padding: 0vw 3vw 1vw 3vw;}
+#jobb {float:right;}
+section #dszc_main_school {width: 80%;margin: 1vw auto;border-radius: 25%;box-shadow: black 0px 0px 10px 5px;}
+section {background: #f8e3c4;float:left;padding: 0vw 3vw 1vw 3vw;}
+aside ul {list-style-type: none;}
+aside ul li {margin: 1vw;}
+button {background: linear-gradient(orange, wheat);border:2px solid black;cursor:pointer;}
+button a {color:black;text-decoration: none;}
+button:hover {background: linear-gradient(blue 50%,rgb(11, 11, 90));color: white;}
+.kozadat p {border: 1px solid black;background-color: lightgoldenrodyellow;margin: 0.5vw auto;}
+.kozadat #cimer {margin: 1vw auto;float:none;background: radial-gradient(black 45%,transparent,transparent);}
+.kozadat #cimer:hover {background: radial-gradient(orange 45%,transparent,transparent);}
+footer {margin: 0vw;padding:1vw;}
+footer img {width:10%;display: block;margin: 0.1vw auto;}
+#rolunk a {text-align: center;}
+#rolunk a img {width: 20%; display: inline-block;margin-left: auto;margin-right: auto; filter:grayscale();}
+#rolunk a img:hover {filter:none;}
+#maps iframe {box-shadow: black 0px 0px 10px 5px;float:left;margin:1vw;}
+.flip-card {background-color: transparent;width: 12vw;height:15vw;border: 1px solid #f1f1f1;display: inline-block;margin:0.5vw 1vw;}
+.flip-card-inner {position: relative;width: 12vw;height:15vw;text-align: center;transition: transform 0.8s;transform-style: preserve-3d;}
+.flip-card:hover .flip-card-inner {transform: rotateY(180deg);}
+.flip-card-front, .flip-card-back {position: absolute;width: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.flip-card-front {background-color: #bbb;color: black;}
+.flip-card-front img {width: 12vw;height:15vw;box-shadow: 0px 0px 5px 2px black;}
+.flip-card-back {width:12vw;height:15vw;box-shadow: 0px 0px 5px 2px black;background:linear-gradient(lightsalmon, wheat);color: #112338;transform: rotateY(180deg);}
+.flip-card p {color: #112338;margin:0.5vw;}
+.flip-card h1 {color: #112338;margin:1vw;}
+.leader, .teacher-mv {box-shadow: 0px 0px 10px 4px red;}
+.titkar, .teacher {box-shadow: 0px 0px 10px 4px yellow;}
+.rendszergazda, .psy {box-shadow: 0px 0px 10px 4px orange;}
+.technikus, .booker {box-shadow: 0px 0px 10px 4px cyan;}
+.upd_okt {box-shadow: 0px 0px 10px 4px purple;}
+.eme_okt {box-shadow: 0px 0px 10px 4px green;}
+.forst a {color:#112338;text-decoration: none;}
+.forst a:hover {color:blue;text-shadow: 0px 0px 1px black;}
+.szak_doc h3 {background-color: wheat; border:1px solid black;padding:1vw;}
+.szak_doc {background-color: bisque; border:1px solid black;padding: 0.5vw;}
+div.card {display: inline-block;}
+.card {width: 15vw; height: 18vw;box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);transition: 0.3s;background-color: white; margin: 1.75vw 1.75vw;}
+.card:hover {box-shadow: 0 8px 16px 2px rgba(0,0,0,0.2);border: 2px solid black;}
+#kp5 ul {list-style-type: none; margin: 0; padding:0.5vw;}
+#kp5 ul li{text-align: center;padding: 0.5vw; border: 1px solid;border-collapse: collapse;background-color: beige;}
+#kp5 div {display: inline;}
+.kp6 span.xd {background-color: wheat; border: 1px solid black; text-align: center;padding:1vw; display: inline;}

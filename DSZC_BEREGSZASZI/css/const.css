@@ -1,0 +1,41 @@
+/* Box */
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* poziciók */
+.tx-left{text-align: left;}
+.tx-center {text-align: center;}
+.tx-right {text-align: right;}
+.tx-justify {text-align: justify;}
+.centered {margin-left: auto;margin-right: auto;}
+.left {float:left;}
+.right {float:right;}
+/* Színek */
+.oblue {background-color: #112338;}
+.tx-white {color:white;}
+.tx-oblue {color: #112338}
+.obgcolor {background-color: #FEF3E2;}
+.wheat {background-color: wheat;}
+.black {background-color: black;}
+.red {background-color: red;}
+.dred {background-color: darkred;}
+.tomato {background-color: tomato;}
+.tx-red {color: red;}
+.salmon {background-color: salmon;}
+.lsalmon {background-color: lightsalmon;}
+/* betű méretek */
+.vw-a0 {font-size: 0.25vw;}
+.vw-a {font-size: 0.5vw;}
+.vw-a1 {font-size: 0.75vw;}
+.vw-1 {font-size: 1vw;}
+.vw-b0 {font-size: 1.25vw;}
+.vw-b {font-size: 1.5vw;}
+.vw-b1 {font-size: 1.75vw;}
+.vw-2 {font-size: 2vw;}
+/* etc */ 
+.uline {text-decoration: underline;}
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.bolder {font-weight: bolder;}

@@ -1,0 +1,363 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+}
+
+header div #logo {
+    padding: 1vw;
+    width: 50vw;
+    ;
+    font-size: 5vw;
+    text-decoration: none;
+    display: block;
+    background: repeating-linear-gradient(to left, orange, yellow 10%, darkorange 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: black;
+    animation: logo 3s ease-in-out infinite;
+    background-size: 400% 100%;
+    -webkit-text-stroke: 0.35vw transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
+    letter-spacing: 0.5vw;
+}
+
+header #navbar {
+    text-align: right;
+    width: 50vw;
+    display: inline-flex;
+    margin: 1vw;
+}
+
+header #navbar a {
+    display: block;
+    margin: 1vw;
+    padding: 1vw;
+    border: 0.4vw solid darkred;
+    border-radius: 1vw;
+    background: linear-gradient(-35deg,goldenrod, darkgoldenrod,darkorange,orangered);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.25vw;
+}
+
+
+header #navbar a:hover {
+    color: black;
+    background: orangered;
+}
+
+@keyframes logo {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+#mozi {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.helyek {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    border: 0.35vw solid black;
+    border-bottom: none;
+    border-top: none;
+    background-color: rgb(22, 22, 22);
+    padding: 0vw 1vw;
+    width: 50%;
+}
+
+.szek:hover {
+    opacity: calc(70%);
+}
+
+.msor {
+    margin: 0 auto;
+}
+
+.szek {
+    cursor: pointer;
+    color: white;
+    padding: 0.6vw;
+    font-size: 1vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5vw 0.75vw;
+    background: linear-gradient(orange, darkorange, yellow);
+    box-shadow: 0 0 0.5vw 0.15vw orange;
+}
+
+.szek-i {
+    color: black;
+    padding: 0.6vw;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5vw 0.75vw;
+    background: linear-gradient(grey, white, darkgrey);
+    box-shadow: 0 0 0.5vw 0.15vw lightgrey;
+    cursor: not-allowed;
+}
+
+.szek-f {
+    color: white;
+    padding: 0.6vw;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5vw 0.75vw;
+    background: linear-gradient(red, darkred, salmon);
+    box-shadow: 0 0 0.5vw 0.15vw red;
+    cursor: not-allowed;
+}
+
+.szek-f:hover,.szek-r:hover {
+    opacity: calc(100%);
+}
+
+.szek-r {
+    color: white;
+    padding: 0.6vw;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5vw 0.75vw;
+    background: linear-gradient(green, darkgreen, lime);
+    box-shadow: 0 0 0.5vw 0.15vw limegreen;
+}
+
+button {
+    margin: 0vw 1vw;
+    padding: 1vw;
+    background: linear-gradient(orange, yellow, darkorange);
+    border: 0.2vw solid black;
+    border-radius: 10vw;
+    box-shadow: 0vw 0vw 0.5vw 0.1vw red;
+    cursor: pointer;
+    color: black;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+button:hover {
+    color: darkgoldenrod;
+    opacity: calc(70%);
+    border: 0.2vw solid darkgoldenrod;
+    border-radius: 10vw;
+    box-shadow: 0vw 0vw 0.5vw 0.1vw orange;
+}
+
+section #gombok {
+    display: block;
+    margin: 0vw auto;
+    padding: 2vw;
+}
+
+#header_alsovonal {
+    background: linear-gradient(black, orange, yellow);
+    height: 2vw;
+}
+
+.alsovonal_black {
+    height: 0.5vw;
+    background-color: black;
+}
+
+#ticket {
+    background: repeating-linear-gradient(to left, darkred, red 3%, darkred 5%);
+    width: 100%;
+    padding: 3vw 0vw;
+}
+
+#gombok {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 0.35vw solid black;
+    border-top: none;
+    background-color: rgb(22, 22, 22);
+    border-radius: 0vw 0vw 1vw 1vw;
+    padding: 0vw;
+    width: 48%;
+}
+
+.fuggony {
+    height: 1vw;
+    background: linear-gradient(gray, lightgrey, grey, darkgrey);
+}
+
+#buttonfunction {
+    display: block;
+    margin: 0 auto;
+    font-size: 2vw;
+    color: orange;
+    text-decoration: underline orangered;
+    text-align: center;
+    width: 52%;
+    background-color: rgb(22, 22, 22);
+    border: 0.35vw solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+section h1 {
+    display: block;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    color: orange;
+    text-decoration: underline orangered;
+    text-align: center;
+    width: 52%;
+    background-color: rgb(22, 22, 22);
+    border: 0.35vw solid black;
+    border-bottom: none;
+    padding-top: 1vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.75vw;
+    padding: 0.25vw;
+    font-weight: bolder;
+    background-color: black;
+    color: orange;
+    -webkit-text-stroke: 0.1vw orangered;
+}
+#mozivaszon {
+    padding: 1vw 1vw;
+    margin:0 auto;
+    background-color: rgb(22, 22, 22);
+    border: 0.35vw solid black;
+    border-top: none;
+    border-bottom:none;
+    width: 50%;
+}
+#mozivaszon span {
+    margin: 0 auto;
+    background: linear-gradient(-25deg, grey,white,darkgrey,lightgrey,gray);
+    animation: logo 3s ease-in-out infinite;
+    background-size: 400% 100%;
+    display: block;
+    width: 80%;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+    height: 0.5vw;
+    box-shadow: 0vw 0.2vw 1vw 0vw white;
+}
+#mozi_icons {display: inline-flex; padding:0; margin:0;}
+#mozi_icons #szek_icon {color: white;
+    padding: 0.6vw;
+    cursor: default;
+    font-size: 1vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5vw 0.75vw;
+    background: linear-gradient(orange, darkorange, yellow);
+    box-shadow: 0 0 0.5vw 0.15vw orange;}
+    #mozi_icons #szek-i_icon {
+        cursor: default;
+        color: black;
+        padding: 0.6vw;
+        font-size: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1.5vw 0.75vw;
+        background: linear-gradient(grey, white, darkgrey);
+        box-shadow: 0 0 0.5vw 0.15vw lightgrey;
+    }
+    #mozi_icons #szek-f_icon {
+        cursor: default;
+        color: white;
+        padding: 0.6vw;
+        font-size: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1.5vw 0.75vw;
+        background: linear-gradient(red, darkred, salmon);
+        box-shadow: 0 0 0.5vw 0.15vw red;
+    }
+    #mozi_icons #szek-r_icon {
+        color: white;
+        padding: 0.6vw;
+        font-size: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1.5vw 0.75vw;
+        background: linear-gradient(green, darkgreen, lime);
+        box-shadow: 0 0 0.5vw 0.15vw limegreen;
+        cursor:default;
+    }
+    #home h1 {
+        color:orange;
+        text-align: center;
+        font-size: 2.5vw;
+        -webkit-text-stroke: 0.1vw black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.25vw;
+    }
+    #home p {color: wheat;font-size: 1.25vw;text-align: center;}
+    #info h2 {
+        color:orange;
+        text-align: center;
+        font-size: 2.5vw;
+        -webkit-text-stroke: 0.1vw black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.25vw;
+    }
+    #info p {color: wheat;font-size: 1.25vw;text-align: center;}
+    #info p a {
+        color: rgb(229, 200, 147); text-decoration: none;
+    }
+#info p a:hover {color:sandybrown;}
+#movies h1 {
+    color:orange;
+    text-align: center;
+    font-size: 2.5vw;
+    -webkit-text-stroke: 0.1vw black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.25vw;
+}
+#movies p {
+    color: wheat;
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+table {width: 80%;margin:0 auto; display: flex;}
+table tr {width: 100%;}
+table tr td {width: 20%; padding: 1vw; margin: 0.25vw;}
+table tr td img {
+    display: block;
+    margin: 0 auto;
+    width: 13vw;
+    border: 0.25vw solid black;
+    border-radius: 1.5vw;
+    box-shadow: gray 0vw 0vw 0.25vw 0.1vw;
+    height: 20vw;
+}
+table tr td img:hover {
+    cursor:default;
+    border: 0.25vw solid orangered;
+    box-shadow: orange 0vw 0vw 0.25vw 0.1vw;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="col-12">
+    <div id="compa" class="col-12">
+        <img id="o_css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" title="CSS">
+        <h1><span id="fordit"></span></h1>
+        <p id="rizsa">
+            A stíluslapok már a HTML kezdete, 1990 óta jelen vannak valamilyen formában. A böngészők a stílus
+            módosítására létrehozták saját leíró nyelvüket, melyet a webes dokumentumok megjelenésének módosítására
+            lehetett használni. Eredetileg a stíluslapokat a felhasználók használták, mivel a HTML korai verziói még
+            csak kevés prezentációs attribútumot tartalmaztak, így gyakran bízták a felhasználóra, hogy a webes
+            dokumentumok hogyan jelenjenek meg.
+            <br>
+            A webfejlesztők igényei folyamatosan növekedtek a stilisztikai lehetőségek irányába, így a HTML nyelvbe
+            egyre több ilyen elem került. Ilyen lehetőségek mellett a stíluslapok kevésbé voltak fontosak, és egyetlen
+            külső stílusleíró nyelv sem lett széleskörűen elfogadva a CSS megjelenése előtt.
+            <br>
+            A CSS eredetileg Håkon Wium Lie ötlete volt 1994-ben. Bert Bos időközben egy Argo nevű böngészőn dolgozott,
+            mely saját stíluslapokat használt; végül ők ketten döntöttek a CSS kifejlesztése mellett.
+            <br>
+            Ekkor már több stílusleíró nyelv is létezett, de a CSS volt az első, ami a kapcsolás ötletét használta fel,
+            vagyis a dokumentum stílusa több különböző stíluslapból tevődhetett össze. Ezáltal lehetőség nyílt arra,
+            hogy a felhasználó által megadott stílus bizonyos esetekben felülírja a szerző stílusát, míg a többi esetben
+            örökli azt. A stíluslapok ilyen kapcsolása mind a szerző, mind a felhasználó számára rugalmas vezérlést
+            biztosított, mivel megengedte a vegyes stilisztikai beállításokat.
+            <br>
+            Håkon ajánlata a "Mosaic és a Web" konferecián került bemutatásra Chicagóban, először 1994-ben, majd később
+            1995-ben. Ebben az időben alakult meg a Word Wide Web Consortium is, mely később fellépett a CSS érdekében,
+            és megalapított egy bizottságot a részletes kidolgozására. Håkon és Bert volt az elsődleges technikai
+            vezetője a projektnek, melyhez további tagok csatlakoztak, többek között Thomas Reardon a Microsoft-tól.
+            1996 decemberében a CSS level 1 ajánlata hivatalosan is megjelent.
+            <br>
+            1997 elején a CSS egy Chris Lilley vezette csoporthoz került a W3C-nél. A csoport azokkal a problémákkal
+            foglalkozott, melyeket a CSS Level 1 kihagyott. A CSS Level 2, mint hivatalos ajánlat, 1998 májusában jelent
+            meg. A CSS Level 3 még jelenleg is fejlesztés alatt áll.
+        </p>
+        <h1>Hasznos linkek a tanuláshoz</h1>
+        <div id="links">
+            <a href="https://www.w3schools.com/css/default.asp" target="_blank"><button>Ismerkedjünk meg a
+                    CSS-el</button></a>
+            <a href="https://www.w3schools.com/css/css_howto.asp" target="_blank"><button>CSS beillesztése
+                    HTML-be</button></a>
+            <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank"><button>CSS
+                    selectorok</button></a>
+            <a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank"><button>CSS display
+                    tulajdonság</button></a>
+            <a href="https://www.w3schools.com/css/css_border.asp" target="_blank"><button>CSS Szegélyek</button></a>
+            <a href="https://www.w3schools.com/css/css_background.asp" target="_blank"><button>CSS
+                    háttérkép/szín</button></a>
+            <a href="https://www.w3schools.com/css/css_colors.asp" target="_blank"><button>CSS szövegszín</button></a>
+            <a href="https://www.w3schools.com/css/css_comments.asp" target="_blank"><button>CSS kommentek</button></a>
+            <a href="https://www.w3schools.com/css/css_website_layout.asp" target="_blank"><button>CSS selectorok HTML
+                    alap szerkezethez</button></a>
+            <a href="https://www.w3schools.com/css/css_image_gallery.asp" target="_blank"><button>CSS
+                    galéria</button></a>
+            <a href="https://www.w3schools.com/css/css_link.asp" target="_blank"><button>CSS linkek</button></a>
+            <a href="https://www.w3schools.com/css/css_text.asp" target="_blank"><button>CSS szöveg
+                    stílusok</button></a>
+            <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank"><button>CSS doboz
+                    model</button></a>
+            <a href="https://www.w3schools.com/css/css_padding.asp" target="_blank"><button>CSS belső margó</button></a>
+            <a href="https://www.w3schools.com/css/css_margin.asp" target="_blank"><button>CSS margó</button></a>
+        </div><br>
+        <h3>Ha az alábbi linkeken nem találtad meg a neked kellő segítséget <a
+                href="https://www.w3schools.com/css/default.asp" target="_blank">katt ide</a>!</h3>
+    </div>
+</body>
+<script>
+    let css_text = "Cascading Style Sheets";
+    document.getElementById("fordit").innerHTML = css_text;
+    document.getElementById("fordit").onmouseover = function () { document.getElementById("fordit").innerHTML = "Lépcsőzetes stíluslapok"; }
+    document.getElementById("fordit").onmouseout = function () { document.getElementById("fordit").innerHTML = css_text; }
+</script>
+
+</html>

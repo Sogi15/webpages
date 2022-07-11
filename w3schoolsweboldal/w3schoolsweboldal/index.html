@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>W3Schools copy</title>
+</head>
+<!--- Szunyogh Attila 1/13.1-->
+<body class="col-12" onload="startTime()">
+    <div id="page">
+        <main class="col-12">
+            <header class="col-12">
+                <div class="col-2" id="logo">
+                    <a href="index.html" title="w3schools"><img id="w3logo"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png"></a>
+                </div>
+                <div class="col-8" id="h1w3">
+                    <h1>W3Schools Copy</h1>
+                </div>
+                <div class="col-2" id="w3el">
+                    <div class="col-12" id="rghtdiv">
+                        <a href="mailto:copyofw3@w3schools.com"title="E-Mail"><img class="col-4"  src="https://pecsinger.hu/wp-content/uploads/2016/07/email-icon.png"></a>
+                       <a href="tel:+368825674323" title="Telefonszám"><img class="col-4"  src="https://i.pinimg.com/originals/84/4e/8c/844e8cd4ab26c82286238471f0e5a901.png"></a>
+<a href="https://www.w3schools.com/" title="Eredeti W3Schools oldal"><img class="col-4"  src="https://play-lh.googleusercontent.com/Y4moOvPounBGPwfOqkMhiiCDtVzoHImdSoBIAhj8Y59ZVaPpRN57UHbsISSGlxSoww"></a>
+</div></div>
+                <hr class="hrg col-12">
+                <nav class="col-12" id="menuline">
+                    <div class="col-2" id="html_page" onclick="html()">HTML</div>
+                    <div class="col-2" id="css_page" onclick="css()">CSS</div>
+                    <div class="col-2" id="js_page" onclick="js()">Javascript</div>
+                    <div class="col-2" id="php_page" onclick="php()">PHP</div>
+                    <div class="col-2" id="csharp_page" onclick="csharp()">C#</div>
+                    <div class="col-2" id="sql_page" onclick="sql()">MySQL</div>
+                </nav>
+                <hr class="hrg col-12">
+            </header>
+            <article class="col-12">
+                <div class="col-12" id="home">
+                    <h1 id="mbd"></h1>
+                    <p>
+Az oldal koncepciója egyszerű. Egy weboldalt kellett létrehozni a W3Schools tutorial weboldal alapján. <br> A cím azért lett w3schools copy, mert lényegében ez egy átgondolt másolata az eredetinek, nyílván leegyszerűsítve.. <br>
+Az oldalak egyszerűek, lényegében külön HTML fileok segítségével egy object tag-be olvasom be őket Javascript-el. Remélem ez nem fog teljesítmény gondokat okozni.<br>
+Az oldal alján a Footer-ben egy működő órát is elhelyeztem. A footer és header háttere animált, illetve bizonyos H1-es címek hover tulajdonsággal rendelkeznek (pld üdvözlő felirat).<br>Bootstrappet és más keretrendszert nem használtam csak saját css-t alkalmaztam néhány kódot az előző mnukáimból merítettem.
+                    </p>
+                </div>
+                <object id="content" type="text/html"></object>
+            </article>
+            <hr class="hrg col-12">
+            <footer class="col-12">
+<h3 id="foot" class="col-10">Szunyogh Attila 1/13.1 SzF <div id="date" class="col-2"></div></h3>
+            </footer>
+    </div>
+    </main>
+
+    <script>
+        function html() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'html.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '65vw';
+            document.getElementById("html_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("html_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("html_page").style.textDecoration = "underline";
+            document.getElementById("html_page").style.fontSize = "1.55vw";
+            document.getElementById("css_page").style.color = "";
+            document.getElementById("css_page").style.background = "";
+            document.getElementById("css_page").style.textDecoration = "";
+            document.getElementById("css_page").style.fontSize = "";
+            document.getElementById("js_page").style.color = "";
+            document.getElementById("js_page").style.background = "";
+            document.getElementById("js_page").style.textDecoration = "";
+            document.getElementById("js_page").style.fontSize = "";
+            document.getElementById("php_page").style.color = "";
+            document.getElementById("php_page").style.background = "";
+            document.getElementById("php_page").style.textDecoration = "";
+            document.getElementById("php_page").style.fontSize = "";
+            document.getElementById("sql_page").style.color = "";
+            document.getElementById("sql_page").style.background = "";
+            document.getElementById("sql_page").style.textDecoration = "";
+            document.getElementById("sql_page").style.fontSize = "";
+            document.getElementById("csharp_page").style.color = "";
+            document.getElementById("csharp_page").style.background = "";
+            document.getElementById("csharp_page").style.textDecoration = "";
+            document.getElementById("csharp_page").style.fontSize = "";
+            document.title = "HTML";
+        }
+
+        function css() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'css.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '65vw';
+            document.getElementById("css_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("css_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("css_page").style.textDecoration = "underline";
+            document.getElementById("css_page").style.fontSize = "1.55vw";
+            document.getElementById("html_page").style.color = "";
+            document.getElementById("html_page").style.background = "";
+            document.getElementById("html_page").style.textDecoration = "";
+            document.getElementById("html_page").style.fontSize = "";
+            document.getElementById("js_page").style.color = "";
+            document.getElementById("js_page").style.background = "";
+            document.getElementById("js_page").style.textDecoration = "";
+            document.getElementById("js_page").style.fontSize = "";
+            document.getElementById("php_page").style.color = "";
+            document.getElementById("php_page").style.background = "";
+            document.getElementById("php_page").style.textDecoration = "";
+            document.getElementById("php_page").style.fontSize = "";
+            document.getElementById("sql_page").style.color = "";
+            document.getElementById("sql_page").style.background = "";
+            document.getElementById("sql_page").style.textDecoration = "";
+            document.getElementById("sql_page").style.fontSize = "";
+            document.getElementById("csharp_page").style.color = "";
+            document.getElementById("csharp_page").style.background = "";
+            document.getElementById("csharp_page").style.textDecoration = "";
+            document.getElementById("csharp_page").style.fontSize = "";
+            document.title = "CSS";
+        }
+
+        function js() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'js.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '45vw';
+            document.getElementById("js_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("js_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("js_page").style.textDecoration = "underline";
+            document.getElementById("js_page").style.fontSize = "1.55vw";
+            document.getElementById("css_page").style.color = "";
+            document.getElementById("css_page").style.background = "";
+            document.getElementById("css_page").style.textDecoration = "";
+            document.getElementById("css_page").style.fontSize = "";
+            document.getElementById("html_page").style.color = "";
+            document.getElementById("html_page").style.background = "";
+            document.getElementById("html_page").style.textDecoration = "";
+            document.getElementById("html_page").style.fontSize = "";
+            document.getElementById("php_page").style.color = "";
+            document.getElementById("php_page").style.background = "";
+            document.getElementById("php_page").style.textDecoration = "";
+            document.getElementById("php_page").style.fontSize = "";
+            document.getElementById("sql_page").style.color = "";
+            document.getElementById("sql_page").style.background = "";
+            document.getElementById("sql_page").style.textDecoration = "";
+            document.getElementById("sql_page").style.fontSize = "";
+            document.getElementById("csharp_page").style.color = "";
+            document.getElementById("csharp_page").style.background = "";
+            document.getElementById("csharp_page").style.textDecoration = "";
+            document.getElementById("csharp_page").style.fontSize = "";
+            document.title = "Javascript";
+        }
+
+        function php() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'php.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '55vw';
+            document.getElementById("php_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("php_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("php_page").style.textDecoration = "underline";
+            document.getElementById("php_page").style.fontSize = "1.55vw";
+            document.getElementById("css_page").style.color = "";
+            document.getElementById("css_page").style.background = "";
+            document.getElementById("css_page").style.textDecoration = "";
+            document.getElementById("css_page").style.fontSize = "";
+            document.getElementById("html_page").style.color = "";
+            document.getElementById("html_page").style.background = "";
+            document.getElementById("html_page").style.textDecoration = "";
+            document.getElementById("html_page").style.fontSize = "";
+            document.getElementById("js_page").style.color = "";
+            document.getElementById("js_page").style.background = "";
+            document.getElementById("js_page").style.textDecoration = "";
+            document.getElementById("js_page").style.fontSize = "";
+            document.getElementById("sql_page").style.color = "";
+            document.getElementById("sql_page").style.background = "";
+            document.getElementById("sql_page").style.textDecoration = "";
+            document.getElementById("sql_page").style.fontSize = "";
+            document.getElementById("csharp_page").style.color = "";
+            document.getElementById("csharp_page").style.background = "";
+            document.getElementById("csharp_page").style.textDecoration = "";
+            document.getElementById("csharp_page").style.fontSize = "";
+            document.title = "PHP";
+        }
+
+        function sql() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'sql.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '50vw';
+            document.getElementById("sql_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("sql_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("sql_page").style.textDecoration = "underline";
+            document.getElementById("sql_page").style.fontSize = "1.55vw";
+            document.getElementById("css_page").style.color = "";
+            document.getElementById("css_page").style.background = "";
+            document.getElementById("css_page").style.textDecoration = "";
+            document.getElementById("css_page").style.fontSize = "";
+            document.getElementById("html_page").style.color = "";
+            document.getElementById("html_page").style.background = "";
+            document.getElementById("html_page").style.textDecoration = "";
+            document.getElementById("html_page").style.fontSize = "";
+            document.getElementById("php_page").style.color = "";
+            document.getElementById("php_page").style.background = "";
+            document.getElementById("php_page").style.textDecoration = "";
+            document.getElementById("php_page").style.fontSize = "";
+            document.getElementById("js_page").style.color = "";
+            document.getElementById("js_page").style.background = "";
+            document.getElementById("js_page").style.textDecoration = "";
+            document.getElementById("js_page").style.fontSize = "";
+            document.getElementById("csharp_page").style.color = "";
+            document.getElementById("csharp_page").style.background = "";
+            document.getElementById("csharp_page").style.textDecoration = "";
+            document.getElementById("csharp_page").style.fontSize = "";
+            document.title = "MySQL";
+        }
+
+        function csharp() {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("content").data = 'csharp.html';
+            document.getElementById("home").style.display = "none";
+            document.getElementById("content").style.height = '55vw';
+            document.getElementById("csharp_page").style.color = "rgb(7, 61, 7)";
+            document.getElementById("csharp_page").style.background = "linear-gradient(transparent,transparent,rgb(29, 87, 29))";
+            document.getElementById("csharp_page").style.textDecoration = "underline";
+            document.getElementById("csharp_page").style.fontSize = "1.55vw";
+            document.getElementById("css_page").style.color = "";
+            document.getElementById("css_page").style.background = "";
+            document.getElementById("css_page").style.textDecoration = "";
+            document.getElementById("css_page").style.fontSize = "";
+            document.getElementById("html_page").style.color = "";
+            document.getElementById("html_page").style.background = "";
+            document.getElementById("html_page").style.textDecoration = "";
+            document.getElementById("html_page").style.fontSize = "";
+            document.getElementById("php_page").style.color = "";
+            document.getElementById("php_page").style.background = "";
+            document.getElementById("php_page").style.textDecoration = "";
+            document.getElementById("php_page").style.fontSize = "";
+            document.getElementById("sql_page").style.color = "";
+            document.getElementById("sql_page").style.background = "";
+            document.getElementById("sql_page").style.textDecoration = "";
+            document.getElementById("sql_page").style.fontSize = "";
+            document.getElementById("js_page").style.color = "";
+            document.getElementById("js_page").style.background = "";
+            document.getElementById("js_page").style.textDecoration = "";
+            document.getElementById("js_page").style.fontSize = "";
+            document.title = "C#";
+        }
+        let mbd_text = "Üdvözöllek az oldalon!";
+document.getElementById("mbd").innerHTML = mbd_text;
+document.getElementById("mbd").onmouseover = function () { document.getElementById("mbd").innerHTML = "Made by DémonMesteR"; }
+document.getElementById("mbd").onmouseout = function () { document.getElementById("mbd").innerHTML = mbd_text; }
+
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('date').innerHTML = h + ":" + m + ":" + s;
+  document.getElementById('date').style.fontSize = "1.5vw";
+  document.getElementById('date').style.color = "darkgreen";
+  document.getElementById('date').style.textAlign = "right";
+  setTimeout(startTime, 1000);
+}
+let unusedvaltozo = "Szunyogh Attila";
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="col-12">
+    <div id="compa" class="col-12">
+        <img id="o_csharp" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" title="C#">
+        <h1><span id="fordit"></span></h1>
+        <p id="rizsa">
+            A 90-es években a Microsoft a saját Java keretkörnyezetét a saját operációsrendszer-specifikus függvényeivel és szolgáltatásaival bővítette ki, amire viszont nem volt engedélye (a Java licencét birtokló) Sun Microsystemstől. A Microsoft-féle Javára fejlesztett alkalmazások nem lettek volna futtathatók más rendszereken, ami ellenkezik a Java platform-függetlenségre vonatkozó alapelvével. A Sun végül beperelte a Microsoftot, és ezt követően a Microsoft a Java eltávolítására kényszerült a Windows rendszerekből (természetesen a Java-t a továbbiakban is lehet külön rendszerként telepíteni). A Microsoft egy saját keretrendszer fejlesztésébe kezdett. Ez lett a .NET (kiejtése: dotnet), és ehhez a keretrendszerhez adták ki programnyelvként a C# első verzióját. A későbbiekben ezt a nyelvet úgy fejlesztették tovább, hogy meglegyen az egyensúly a programozó nyelvi szabadsága és a gyors alkalmazásfejlesztés lehetősége között. Rengeteg hivatalosan kiadott bővítmény létezik hozzá, amelyek a kódolást könnyebbé teszik.
+                    </p>
+        <h1>Hasznos linkek a tanuláshoz</h1>
+        <div id="links">
+            <a href="https://www.w3schools.com/cs/cs_getstarted.php" target="_blank"><button>Ismerkedjük meg a C#-al</button></a>
+            <a href="https://www.w3schools.com/cs/cs_output.php" target="_blank"><button>C# kimenetek</button></a>
+            <a href="https://www.w3schools.com/cs/cs_comments.php" target="_blank"><button>C# kommentek</button></a>
+            <a href="https://www.w3schools.com/cs/cs_variables.php" target="_blank"><button>C# Változók</button></a>
+            <a href="https://www.w3schools.com/cs/cs_data_types.php" target="_blank"><button>C# adat típusok</button></a>
+            <a href="https://www.w3schools.com/cs/cs_user_input.php" target="_blank"><button>C# bekérések</button></a>
+            <a href="https://www.w3schools.com/cs/cs_operators.php" target="_blank"><button>C# operátorok</button></a>
+            <a href="https://www.w3schools.com/cs/cs_math.php" target="_blank"><button>C# matematikai függvények</button></a>
+            <a href="https://www.w3schools.com/cs/cs_strings.php" target="_blank"><button>C# karakterláncok</button></a>
+            <a href="https://www.w3schools.com/cs/cs_booleans.php" target="_blank"><button>C# logikai függvények</button></a>
+            <a href="https://www.w3schools.com/cs/cs_conditions.php" target="_blank"><button>C# eldöntendő (HA)</button></a>
+            <a href="https://www.w3schools.com/cs/cs_switch.php" target="_blank"><button>C# váltók</button></a>
+            <a href="https://www.w3schools.com/cs/cs_while_loop.php" target="_blank"><button>C# while ciklus</button></a>
+            <a href="https://www.w3schools.com/cs/cs_for_loop.php" target="_blank"><button>C# for ciklus</button></a>
+            <a href="https://www.w3schools.com/cs/cs_arrays.php" target="_blank"><button>C# tömb</button></a>
+        </div><br>
+        <h3>Ha az alábbi linkeken nem találtad meg a neked kellő segítséget <a href="https://www.w3schools.com/cs/index.php" target="_blank">katt ide</a>!</h3>
+    </div>
+</body>
+<script>
+    let csharp_text = "C#";
+    document.getElementById("fordit").innerHTML = csharp_text;
+    document.getElementById("fordit").onmouseover = function () { document.getElementById("fordit").innerHTML = "C Sharp"; }
+    document.getElementById("fordit").onmouseout = function () { document.getElementById("fordit").innerHTML = csharp_text; }
+</script>
+</html>
